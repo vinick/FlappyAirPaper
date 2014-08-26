@@ -1,0 +1,197 @@
+fileFormatVersion: 2
+guid: f382fee795bbb43f5838f6824424fa22
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: airPlane
+    100002: Back
+    100004: back
+    100006: Back_Ctrl
+    100008: Back_Ctrl_Grp
+    100010: Back_Grp
+    100012: Front
+    100014: Front_Ctrl
+    100016: Front_Ctrl_Grp
+    100018: Front_Grp
+    100020: //RootNode
+    100022: Left
+    100024: Left_Ctrl
+    100026: Left_Ctrl_Grp
+    100028: Left_Grp
+    100030: LeftEnd
+    100032: LeftEnd_Grp
+    100034: Master
+    100036: Master_Ctrl
+    100038: Master_Ctrl_Grp
+    100040: Master_Grp
+    100042: Right
+    100044: Right__Ctrl
+    100046: Right_Ctrl_Grp
+    100048: Right_Grp
+    100050: RightEnd
+    100052: RightEnd_Grp
+    400000: airPlane
+    400002: Back
+    400004: back
+    400006: Back_Ctrl
+    400008: Back_Ctrl_Grp
+    400010: Back_Grp
+    400012: Front
+    400014: Front_Ctrl
+    400016: Front_Ctrl_Grp
+    400018: Front_Grp
+    400020: //RootNode
+    400022: Left
+    400024: Left_Ctrl
+    400026: Left_Ctrl_Grp
+    400028: Left_Grp
+    400030: LeftEnd
+    400032: LeftEnd_Grp
+    400034: Master
+    400036: Master_Ctrl
+    400038: Master_Ctrl_Grp
+    400040: Master_Grp
+    400042: Right
+    400044: Right__Ctrl
+    400046: Right_Ctrl_Grp
+    400048: Right_Grp
+    400050: RightEnd
+    400052: RightEnd_Grp
+    4300000: airPlane
+    7400000: idle
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: airPlane
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 1
+    optimizeGameObjects: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: idle
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 47
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: airPlane
+        weight: 1
+      - path: back
+        weight: 1
+      - path: Master_Ctrl_Grp
+        weight: 1
+      - path: Master_Ctrl_Grp/Master_Ctrl
+        weight: 1
+      - path: Master_Ctrl_Grp/Master_Ctrl/Back_Ctrl_Grp
+        weight: 1
+      - path: Master_Ctrl_Grp/Master_Ctrl/Back_Ctrl_Grp/Back_Ctrl
+        weight: 1
+      - path: Master_Ctrl_Grp/Master_Ctrl/Back_Ctrl_Grp/Back_Ctrl/Left_Ctrl_Grp
+        weight: 1
+      - path: Master_Ctrl_Grp/Master_Ctrl/Back_Ctrl_Grp/Back_Ctrl/Left_Ctrl_Grp/Left_Ctrl
+        weight: 1
+      - path: Master_Ctrl_Grp/Master_Ctrl/Back_Ctrl_Grp/Back_Ctrl/Right_Ctrl_Grp
+        weight: 1
+      - path: Master_Ctrl_Grp/Master_Ctrl/Back_Ctrl_Grp/Back_Ctrl/Right_Ctrl_Grp/Right__Ctrl
+        weight: 1
+      - path: Master_Ctrl_Grp/Master_Ctrl/Front_Ctrl_Grp
+        weight: 1
+      - path: Master_Ctrl_Grp/Master_Ctrl/Front_Ctrl_Grp/Front_Ctrl
+        weight: 1
+      - path: Master_Grp
+        weight: 1
+      - path: Master_Grp/Master
+        weight: 1
+      - path: Master_Grp/Master/Back_Grp
+        weight: 1
+      - path: Master_Grp/Master/Back_Grp/Back
+        weight: 1
+      - path: Master_Grp/Master/Back_Grp/Back/Left_Grp
+        weight: 1
+      - path: Master_Grp/Master/Back_Grp/Back/Left_Grp/Left
+        weight: 1
+      - path: Master_Grp/Master/Back_Grp/Back/Left_Grp/Left/LeftEnd_Grp
+        weight: 1
+      - path: Master_Grp/Master/Back_Grp/Back/Left_Grp/Left/LeftEnd_Grp/LeftEnd
+        weight: 1
+      - path: Master_Grp/Master/Back_Grp/Back/Right_Grp
+        weight: 1
+      - path: Master_Grp/Master/Back_Grp/Back/Right_Grp/Right
+        weight: 1
+      - path: Master_Grp/Master/Back_Grp/Back/Right_Grp/Right/RightEnd_Grp
+        weight: 1
+      - path: Master_Grp/Master/Back_Grp/Back/Right_Grp/Right/RightEnd_Grp/RightEnd
+        weight: 1
+      - path: Master_Grp/Master/Front_Grp
+        weight: 1
+      - path: Master_Grp/Master/Front_Grp/Front
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  additionalBone: 0
+  userData: 
